@@ -29,14 +29,6 @@ B.Tech CSE student interested in:
 - Resume Download
 - Contact Form
 
-## 📂 Projects
-- AI Mental Health Monitoring System
-- Secure 2FA Authentication System
-- Online Blood Donation Management System
-- Smart Parking System
-- Sudoku Solver
-- Banking System
-- CGPA Calculator
 
 ## ⚙️ Installation
 
@@ -52,5 +44,5 @@ MIT License
 
 ## 📬 Contact
 GitHub: https://github.com/ronit7707
-LinkedIn: *(Add your LinkedIn profile)*
-Email: *(Add your email)*
+LinkedIn: *(https://www.linkedin.com/in/ronit-singh7)*
+Email: *(ronit7707singh@gmail.com)*
