@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Ronit Kumar Portfolio"
+description = "A job-ready personal portfolio for Ronit Kumar, a computer science student focused on data analytics, business intelligence, predictive analytics, and practical software projects."
+version = "1.0.0"
+id = "artifacts/ronit-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25489
+
+[services.development]
+run = "pnpm --filter @workspace/ronit-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ronit-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ronit-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25489"
+BASE_PATH = "/"
